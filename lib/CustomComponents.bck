@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TC1016
-D 80 mA, Tiny CMOS LDO With Shutdown
-K POWER REGUL
-F /home/steve/pcbs/Docs/001085545-da-01-en-IC_REG_LDO_TC1016_2_7VCTTR_SOT_23_5_MCP.pdf
-$ENDCMP
-#
-#End Doc Library

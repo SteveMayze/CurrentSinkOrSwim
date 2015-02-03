@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LMV358
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
 $CMP TC1016
 D 80 mA, Tiny CMOS LDO With Shutdown
 K POWER REGUL
