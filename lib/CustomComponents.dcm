@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM2931D-R
+D 80 mA, Tiny CMOS LDO With Shutdown
+K POWER REGUL
+F doc/001085545-da-01-en-IC_REG_LDO_TC1016_2_7VCTTR_SOT_23_5_MCP.pdf
+$ENDCMP
+#
 $CMP LMV358
 D Dual Op amp (low power)
 K ampliop
