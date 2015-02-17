@@ -1,4 +1,5 @@
 *.bak
 *.bck
 CurrentSinkOrSwim-cache.lib
+*.kicad_pcb-bak
 

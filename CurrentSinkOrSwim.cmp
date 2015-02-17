@@ -1,59 +1,59 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502171246+5425~21~ubuntu14.04.1-product   date = Tue 17 Feb 2015 21:52:17 CET
+Cmp-Mod V01 Created by Cvpcb 0.201502171246+5425~21~ubuntu14.04.1-product   date = Tue 17 Feb 2015 22:59:33 CET
 
 BeginCmp
 TimeStamp = /54E38472/54E393B0;
 Reference = C201;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3B0CD;
 Reference = C301;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38478/54E39CB0;
 Reference = C401;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38478/54E39CB7;
 Reference = C402;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3AD95;
 Reference = D301;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = SMD_Packages:SOD-523;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E39144;
 Reference = P101;
 ValeurCmp = CONN_01X03;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E39227;
 Reference = P102;
 ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D118EE;
 Reference = P103;
 ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
@@ -67,91 +67,91 @@ BeginCmp
 TimeStamp = /54E38472/54E39622;
 Reference = R201;
 ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38472/54E39380;
 Reference = R202;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38472/54E39388;
 Reference = R203;
 ValeurCmp = .1;
-IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3B1F8;
 Reference = R301;
 ValeurCmp = 9K;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3B0B9;
 Reference = R302;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3B24B;
 Reference = R303;
 ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38478/54E39CEA;
 Reference = R401;
 ValeurCmp = 27k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38478/54E39CC5;
 Reference = R402;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38478/54E39CF1;
 Reference = R403;
 ValeurCmp = 21.6k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38472/54E393C3;
 Reference = RV201;
 ValeurCmp = POT;
-IdModule  = ;
+IdModule  = Potentiometers:Potentiometer_WirePads_largePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3B0DA;
 Reference = RV301;
 ValeurCmp = POT;
-IdModule  = ;
+IdModule  = Potentiometers:Potentiometer_WirePads_largePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38472/54E3939B;
 Reference = U201;
 ValeurCmp = LMV358;
-IdModule  = SMD_Packages:SSOP-8;
+IdModule  = SMD_Packages:SOIC-8-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38478/54E39CD7;
 Reference = U401;
 ValeurCmp = LM2931D-R;
-IdModule  = Power_Integrations:SO-8;
+IdModule  = SMD_Packages:SOIC-8-N;
 EndCmp
 
 EndListe
