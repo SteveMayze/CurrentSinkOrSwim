@@ -57,17 +57,9 @@ F 3 "" H 6250 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 1550 5350 2350
+	5350 1550 5350 5550
 Wire Wire Line
-	5350 2350 5350 3600
-Wire Wire Line
-	5350 3600 5350 5550
-Wire Wire Line
-	5900 2450 5900 4150
-Wire Wire Line
-	5900 4150 5900 5950
-Wire Wire Line
-	5900 5950 5900 6550
+	5900 2450 5900 6550
 Wire Wire Line
 	5900 2450 6050 2450
 Wire Wire Line
