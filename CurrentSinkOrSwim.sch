@@ -50,8 +50,8 @@ L CONN_01X02 P103
 U 1 1 54D118EE
 P 6250 2400
 F 0 "P103" H 6250 2550 50  0000 C CNN
-F 1 "CONN_01X02" V 6350 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 6250 2400 60  0001 C CNN
+F 1 "CONN_01X02" V 6350 2400 50  0001 C CNN
+F 2 "CSOS Local:Terminal_Block_1x200_mil" H 6250 2400 60  0001 C CNN
 F 3 "" H 6250 2400 60  0000 C CNN
 	1    6250 2400
 	1    0    0    -1  
@@ -60,17 +60,13 @@ Wire Wire Line
 	5350 1550 5350 5550
 Wire Wire Line
 	5900 2450 5900 6550
-Wire Wire Line
-	5900 2450 6050 2450
-Wire Wire Line
-	5350 2350 6050 2350
 $Comp
 L CONN_01X03 P101
 U 1 1 54E39144
 P 5250 1350
 F 0 "P101" H 5250 1550 50  0000 C CNN
-F 1 "CONN_01X03" V 5350 1350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 5250 1350 60  0001 C CNN
+F 1 "CONN_01X03" V 5350 1350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5250 1350 60  0001 C CNN
 F 3 "" H 5250 1350 60  0000 C CNN
 	1    5250 1350
 	0    -1   -1   0   
@@ -81,11 +77,11 @@ L CONN_01X02 P102
 U 1 1 54E39227
 P 2350 1700
 F 0 "P102" H 2350 1850 50  0000 C CNN
-F 1 "CONN_01X02" V 2450 1700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2350 1700 60  0001 C CNN
+F 1 "CONN_01X02" V 2450 1700 50  0001 C CNN
+F 2 "CSOS Local:Terminal_Block_1x200_mil" H 2350 1700 60  0001 C CNN
 F 3 "" H 2350 1700 60  0000 C CNN
 	1    2350 1700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2550 1650 5150 1650
@@ -100,9 +96,9 @@ F 3 "" H 2700 2150 60  0000 C CNN
 	1    2700 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 2050 2050 0    60   ~ 0
+Text Notes 2000 1950 0    60   ~ 0
 Battery pack\n
-Text Notes 6050 2750 0    60   ~ 0
+Text Notes 6050 2650 0    60   ~ 0
 Current sink input
 $Sheet
 S 3600 3350 1350 1400
@@ -167,4 +163,8 @@ Wire Wire Line
 	5150 1650 5150 1550
 Wire Wire Line
 	5250 2150 4900 2150
+Wire Wire Line
+	5350 2350 6050 2350
+Wire Wire Line
+	5900 2450 6050 2450
 $EndSCHEMATC

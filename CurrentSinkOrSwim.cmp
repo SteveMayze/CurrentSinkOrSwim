@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502171246+5425~21~ubuntu14.04.1-product   date = Fri 20 Feb 2015 21:06:46 CET
+Cmp-Mod V01 Created by Cvpcb 0.201502171246+5425~21~ubuntu14.04.1-product   date = Mon 23 Feb 2015 19:51:05 CET
 
 BeginCmp
 TimeStamp = /54E38472/54E393B0;
@@ -39,21 +39,21 @@ BeginCmp
 TimeStamp = /54E39144;
 Reference = P101;
 ValeurCmp = CONN_01X03;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E39227;
 Reference = P102;
 ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+IdModule  = CSOS Local:Terminal_Block_1x200_mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D118EE;
 Reference = P103;
 ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+IdModule  = CSOS Local:Terminal_Block_1x200_mil;
 EndCmp
 
 BeginCmp
@@ -137,14 +137,14 @@ BeginCmp
 TimeStamp = /54E38472/54E393C3;
 Reference = RV201;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_WirePads_largePads;
+IdModule  = CSOS Local:P090L-02F25BR10K;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E38475/54E3B0DA;
 Reference = RV301;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_WirePads_largePads;
+IdModule  = CSOS Local:P090L-02F25BR10K;
 EndCmp
 
 BeginCmp
