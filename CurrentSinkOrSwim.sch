@@ -126,10 +126,6 @@ F1 "PowerRegulation.sch" 60
 F2 "Vin" I R 4900 2150 60 
 $EndSheet
 Wire Wire Line
-	5350 3600 4950 3600
-Wire Wire Line
-	5900 4150 4950 4150
-Wire Wire Line
 	5250 1550 5250 2150
 Wire Wire Line
 	5350 5550 5000 5550
@@ -167,4 +163,8 @@ Wire Wire Line
 	5350 2350 6050 2350
 Wire Wire Line
 	5900 2450 6050 2450
+Wire Wire Line
+	5350 3600 4950 3600
+Wire Wire Line
+	5900 4150 4950 4150
 $EndSCHEMATC

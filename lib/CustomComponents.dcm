@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
 $CMP LM2931D-R
 D 80 mA, Tiny CMOS LDO With Shutdown
 K POWER REGUL

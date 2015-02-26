@@ -91,8 +91,6 @@ F 4 "Value" H 4450 3250 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 2550 6950 2550
-Wire Wire Line
 	4150 3850 4150 3100
 Wire Wire Line
 	6200 2550 6200 2700
@@ -127,12 +125,12 @@ Connection ~ 5100 3850
 $Comp
 L R R401
 U 1 1 54E39CEA
-P 5850 2800
-F 0 "R401" V 5930 2800 50  0000 C CNN
-F 1 "27k" V 5857 2801 50  0000 C CNN
-F 2 "SMD_Packages:SMD-0805" V 5780 2800 30  0001 C CNN
-F 3 "" H 5850 2800 30  0000 C CNN
-	1    5850 2800
+P 5850 2850
+F 0 "R401" V 5930 2850 50  0000 C CNN
+F 1 "27k" V 5857 2851 50  0000 C CNN
+F 2 "SMD_Packages:SMD-0805" V 5780 2850 30  0001 C CNN
+F 3 "" H 5850 2850 30  0000 C CNN
+	1    5850 2850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -147,7 +145,7 @@ F 3 "" H 5850 3450 30  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3050 5850 3200
+	5850 3100 5850 3200
 Wire Wire Line
 	5850 3700 5850 3850
 Connection ~ 5850 3850
@@ -162,15 +160,20 @@ Wire Wire Line
 Wire Wire Line
 	4450 2700 4700 2700
 Wire Wire Line
-	3750 2550 4700 2550
-Wire Wire Line
 	4150 2550 4150 2700
 Connection ~ 4150 2550
 Text GLabel 6950 2550 2    60   Input ~ 0
 2.7V
-Text HLabel 3750 2550 0    60   Input ~ 0
+Text HLabel 3700 2550 0    60   Input ~ 0
 Vin
 Connection ~ 5000 3850
 Connection ~ 5200 3850
 Connection ~ 5300 3850
+Wire Wire Line
+	5850 2550 5850 2600
+Connection ~ 5850 2550
+Wire Wire Line
+	5600 2550 6950 2550
+Wire Wire Line
+	3700 2550 4700 2550
 $EndSCHEMATC

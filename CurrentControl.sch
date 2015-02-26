@@ -125,8 +125,6 @@ Wire Wire Line
 	3850 3950 6650 3950
 Connection ~ 6650 3950
 Wire Wire Line
-	4450 3400 4450 3500
-Wire Wire Line
 	4050 3100 3850 3100
 Wire Wire Line
 	3850 3100 3850 3950
@@ -200,9 +198,9 @@ Connection ~ 6100 3000
 Text HLabel 6950 1650 2    60   Input ~ 0
 FET_GATE
 Wire Wire Line
-	3350 4600 7250 4600
+	3350 4600 7300 4600
 Connection ~ 6650 4600
-Text HLabel 7250 4600 2    60   Input ~ 0
+Text HLabel 7300 4600 2    60   Input ~ 0
 Current_Sink-
 $Comp
 L CONN_01X01 P201
@@ -217,4 +215,9 @@ F 3 "" H 7300 3000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3350 4600 3350 3800
+NoConn ~ 7100 3000
+NoConn ~ 3200 4050
+NoConn ~ 1800 1650
+Wire Wire Line
+	4450 3400 4450 3500
 $EndSCHEMATC
