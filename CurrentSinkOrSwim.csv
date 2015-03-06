@@ -1,0 +1,18 @@
+Reference, Quantity, Value, Footprint, Datasheet, MPN
+"C201, C401, C402 ",3,0.1uF,SMD_Packages:SMD-0805,,
+D301 ,1,1N4148,SMD_Packages:SOD-523,http://www.conrad.de/ce/de/product/1262771/Diode-Fairchild-Semiconductor-1N4148WT-Gehaeuseart-SOD-523-F?ref=searchDetail,1N4148WT
+P101 ,1,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,M20-9990346
+"P102, P103 ",2,CONN_01X02,CSOS Local:Terminal_Block_1x200_mil,,50500020134G
+P201 ,1,HEATSINK,CSOS Local:FA-220-38E,,FA-T220-38E
+Q201 ,1,BUK9575,Transistors_TO-220:TO-220_FET-GDS_Vertical,,"BUK9575-100A,127"
+"R201, R303 ",2,1K,SMD_Packages:SMD-0805,,
+R202 ,1,68K,SMD_Packages:SMD-0805,,
+R203 ,1,0.1,Resistors_ThroughHole:Resistor_Vertical_RM5mm,,AC01000001007JA100
+R301 ,1,9K,SMD_Packages:SMD-0805,,
+R302 ,1,28.7K,SMD_Packages:SMD-0805,,
+R401 ,1,27k,SMD_Packages:SMD-0805,,
+R402 ,1,0,SMD_Packages:SMD-0805,,
+R403 ,1,21.6k,SMD_Packages:SMD-0805,,
+"RV201, RV301 ",2,10K,CSOS Local:P090L-02F25BR10K,,P090L-02F25BR10K
+U201 ,1,LMV358,,,LMV358IDT
+U401 ,1,LM2931D-R,SMD_Packages:SOIC-8-N,http://www.produktinfo.conrad.com/datenblaetter/1100000-1199999/001185847-da-01-en-IC_REG_LDO_ADJ_0_1A_LM2931D_R_SOIC_8_STM.pdf,LM2931D-R
