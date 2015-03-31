@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CustomComponents
-LIBS:CurrentSinkOrSwim-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DIODE D301
+L D D301
 U 1 1 54E3AD95
 P 6450 2750
 F 0 "D301" H 6450 2850 50  0000 C CNN
@@ -71,7 +70,7 @@ $EndComp
 Wire Wire Line
 	4300 3550 4600 3550
 Wire Wire Line
-	4300 3100 4300 3550
+	4300 3000 4300 3550
 Wire Wire Line
 	5000 2850 4800 2850
 Wire Wire Line
@@ -89,7 +88,7 @@ F 4 "P090L-02F25BR10K" H 4150 3550 60  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4300 1750 4300 2600
+	4300 1750 4300 2700
 Wire Wire Line
 	5400 1750 5400 2350
 Wire Wire Line
@@ -100,9 +99,9 @@ Wire Wire Line
 Wire Wire Line
 	4600 2650 4600 3550
 Wire Wire Line
-	6000 2750 6250 2750
+	6000 2750 6300 2750
 Wire Wire Line
-	6650 2750 7250 2750
+	6600 2750 7250 2750
 $Comp
 L R R301
 U 1 1 54E3B1F8
@@ -126,7 +125,7 @@ F 3 "" H 6100 4150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 4400 6100 4550
+	6100 4300 6100 4550
 Wire Wire Line
 	4150 4550 7250 4550
 Text HLabel 7250 2750 2    60   Output ~ 0
@@ -134,7 +133,7 @@ Vcontrol
 Wire Wire Line
 	4800 3700 6100 3700
 Wire Wire Line
-	6100 3600 6100 3900
+	6100 3500 6100 4000
 Connection ~ 6100 3700
 Wire Wire Line
 	6100 3100 7250 3100
@@ -179,4 +178,6 @@ F 4 "LMV358IDT" H 5500 2750 60  0001 C CNN "MPN"
 	1    5500 2750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6100 3100 6100 3200
 $EndSCHEMATC

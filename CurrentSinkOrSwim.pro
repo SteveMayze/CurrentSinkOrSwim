@@ -1,4 +1,4 @@
-update=Wed 25 Feb 2015 21:23:09 CET
+update=2015 March 31, Tuesday 09:55:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,8 +58,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/CustomComponents
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +71,5 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[general]
+version=1

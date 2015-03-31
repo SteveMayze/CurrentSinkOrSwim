@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CustomComponents
-LIBS:CurrentSinkOrSwim-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -90,16 +89,16 @@ F 3 "" H 4450 3250 30  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 3850 4150 3100
+	4150 3050 4150 3850
 Wire Wire Line
-	6200 2550 6200 2700
+	6200 2550 6200 2750
 Connection ~ 6200 2550
 Wire Wire Line
-	6200 3850 6200 3100
+	6200 3050 6200 3850
 Wire Wire Line
-	4150 3850 6200 3850
+	6200 3850 4150 3850
 Wire Wire Line
-	4450 3500 4450 3850
+	4450 3400 4450 3850
 $Comp
 L LM2931D-R U401
 U 1 1 54E39CD7
@@ -144,20 +143,20 @@ F 3 "" H 5850 3450 30  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3100 5850 3200
+	5850 3000 5850 3300
 Wire Wire Line
-	5850 3700 5850 3850
+	5850 3600 5850 3850
 Connection ~ 5850 3850
 Wire Wire Line
 	5600 3150 5850 3150
 Connection ~ 5850 3150
 Connection ~ 4450 3850
 Wire Wire Line
-	4450 3000 4450 2700
+	4450 2700 4450 3100
 Wire Wire Line
 	4450 2700 4700 2700
 Wire Wire Line
-	4150 2550 4150 2700
+	4150 2550 4150 2750
 Connection ~ 4150 2550
 Text GLabel 6950 2550 2    60   Input ~ 0
 2.7V
@@ -167,7 +166,7 @@ Connection ~ 5000 3850
 Connection ~ 5200 3850
 Connection ~ 5300 3850
 Wire Wire Line
-	5850 2550 5850 2600
+	5850 2550 5850 2700
 Connection ~ 5850 2550
 Wire Wire Line
 	5600 2550 6950 2550
