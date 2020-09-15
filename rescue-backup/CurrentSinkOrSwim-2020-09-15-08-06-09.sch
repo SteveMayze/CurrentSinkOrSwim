@@ -1,5 +1,37 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CustomComponents
+LIBS:CurrentSinkOrSwim-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,23 +46,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_01x02 P103
+L CONN_01X02 P103
 U 1 1 54D118EE
-P 6250 2350
-F 0 "P103" H 6250 2500 50  0000 C CNN
-F 1 "CONN_01X02" V 6350 2350 50  0001 C CNN
-F 2 "CSOS Local:Terminal_Block_1x200_mil" H 6250 2350 60  0001 C CNN
-F 3 "" H 6250 2350 60  0000 C CNN
-F 4 "50500020134G" H 6250 2350 60  0001 C CNN "MPN"
-	1    6250 2350
+P 6250 2400
+F 0 "P103" H 6250 2550 50  0000 C CNN
+F 1 "CONN_01X02" V 6350 2400 50  0001 C CNN
+F 2 "CSOS Local:Terminal_Block_1x200_mil" H 6250 2400 60  0001 C CNN
+F 3 "" H 6250 2400 60  0000 C CNN
+F 4 "50500020134G" H 6250 2400 60  0001 C CNN "MPN"
+	1    6250 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 1550 5350 2350
+	5350 1550 5350 5550
 Wire Wire Line
-	5900 2450 5900 4150
+	5900 2450 5900 6550
 $Comp
-L conn:Conn_01x03 P101
+L CONN_01X03 P101
 U 1 1 54E39144
 P 5250 1350
 F 0 "P101" H 5250 1550 50  0000 C CNN
@@ -43,21 +75,21 @@ F 4 "M20-9990346" H 5250 1350 60  0001 C CNN "MPN"
 $EndComp
 Connection ~ 5350 2350
 $Comp
-L conn:Conn_01x02 P102
+L CONN_01X02 P102
 U 1 1 54E39227
-P 2350 1650
-F 0 "P102" H 2350 1800 50  0000 C CNN
-F 1 "CONN_01X02" V 2450 1650 50  0001 C CNN
-F 2 "CSOS Local:Terminal_Block_1x200_mil" H 2350 1650 60  0001 C CNN
-F 3 "" H 2350 1650 60  0000 C CNN
-F 4 "50500020134G" H 2350 1650 60  0001 C CNN "MPN"
-	1    2350 1650
+P 2350 1700
+F 0 "P102" H 2350 1850 50  0000 C CNN
+F 1 "CONN_01X02" V 2450 1700 50  0001 C CNN
+F 2 "CSOS Local:Terminal_Block_1x200_mil" H 2350 1700 60  0001 C CNN
+F 3 "" H 2350 1700 60  0000 C CNN
+F 4 "50500020134G" H 2350 1700 60  0001 C CNN "MPN"
+	1    2350 1700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2550 1650 5150 1650
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 54E393D4
 P 2700 2150
 F 0 "#PWR01" H 2700 1900 60  0001 C CNN
@@ -111,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5600 2150 5600
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 54E3C230
 P 5900 6550
 F 0 "#PWR02" H 5900 6300 60  0001 C CNN
@@ -144,12 +176,4 @@ Text Notes 2750 3500 0    60   ~ 0
 Sheet 200 Series
 Text Notes 2700 6400 0    60   ~ 0
 Sheet 300 Series
-Wire Wire Line
-	5350 2350 5350 3600
-Wire Wire Line
-	5350 3600 5350 5550
-Wire Wire Line
-	5900 4150 5900 5950
-Wire Wire Line
-	5900 5950 5900 6550
 $EndSCHEMATC
