@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\pcbs\CurrentSinkOrSwim\CurrentSinkOrSwim.sch)
-    (date "15/09/2020 08:53:40")
+    (date "17/09/2020 16:09:16")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -116,7 +116,7 @@
       (tstamp 54F4B111))
     (comp (ref Q201)
       (value BUK9575)
-      (footprint Transistors_TO-220:TO-220_FET-GDS_Vertical)
+      (footprint TO_SOT_Packages_THT:TO-220-3_Vertical)
       (fields
         (field (name MPN) BUK9575-100A,127))
       (libsource (lib Device) (part Q_NMOS_GDS) (description "N-MOSFET transistor, gate/drain/source"))
